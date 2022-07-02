@@ -93,6 +93,9 @@ a {
     display: flex;
     align-items: center;
 }
+.nav-list li{
+    display: block;
+}
 .contact-list{
     display: flex;
     margin-left: auto;
@@ -113,6 +116,20 @@ a {
 }
 .navigation-link.current{
     color: var(--logocolor);
+}
+.link-cur{
+    position: relative;
+}
+.current::after{
+    display: block;
+    outline: 3px solid black;
+    content: '';
+
+    position: absolute;
+    top: 100%;
+    width: 100%;
+    color: var(--logocolor);
+    border-radius: 50%;
 }
 .menu>li:not(:first-child){
     margin-left: 50px;
