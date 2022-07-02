@@ -88,6 +88,8 @@ a {
 .nav-list{
     display: flex;
     align-items: center;
+    position: relative;
+    
 }
 .nav-list>ul{
     display: flex;
@@ -117,19 +119,15 @@ a {
 .navigation-link.current{
     color: var(--logocolor);
 }
-.link-cur{
-    position: relative;
-}
-.current::after{
+.nav-link::after{
     display: block;
-    outline: 3px solid black;
-    content: '';
-
+    outline: 1px solid black;
     position: absolute;
+    content: '';
     top: 100%;
-    width: 100%;
-    color: var(--logocolor);
-    border-radius: 50%;
+    width: 48px;
+    background-color: var(--logocolor);
+    border-radius: 2px;
 }
 .menu>li:not(:first-child){
     margin-left: 50px;
