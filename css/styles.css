@@ -695,10 +695,11 @@ padding-bottom: 60px;
     border-radius: 50%;
     width: 30px;
     height: 30px;
-    border: 1px solid #0000001A
+    background: #fff;
+    border: 1px solid rgba(0, 0, 0, 0.1);
 }
 .close-icon{
     display: flex;
-    width: 18px;
-    height: 18px;
+    width: 11px;
+    height: 11px;
 }
