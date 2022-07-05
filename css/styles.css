@@ -170,6 +170,8 @@ a {
     width: 10px;
     height: 16px;
     margin-right: 10px;
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    stroke 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .tel:hover,.tel:focus{
     fill:var(--logocolor);
@@ -245,8 +247,8 @@ a {
         text-align: center;
         letter-spacing: 0.06em;
         border-radius: 4px;
-    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1),
     background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .hero-button:hover,
@@ -436,8 +438,8 @@ a {
     justify-content: center;
     border-radius: 50%;
     fill: var(--iconcolor);
-    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
    
 
 }
@@ -491,8 +493,8 @@ a {
     align-items: center;
     justify-content: center;
     fill: var(--iconcolor);
-    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 }
 .client-pozition>a:hover,.client-pozition>a:focus{
@@ -505,8 +507,8 @@ display: flex;
 background-color: var(--footback);
 padding-top: 60px;
 padding-bottom: 60px;
-transition: text-decoration 250ms cubic-bezier(0.4, 0, 0.2, 1);
-transition: text-decoration-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+transition: text-decoration 250ms cubic-bezier(0.4, 0, 0.2, 1),
+text-decoration-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 }
 .foot-container{
@@ -678,11 +680,12 @@ transition: text-decoration-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     letter-spacing: 0.03em;
     border-radius: 4px;
     border-color: var(--buttonnohover);
+
     padding: 6px 22px;
     border-width: 0px;
-    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .menu-item>button:hover,
 .menu-item>button:focus,
@@ -710,8 +713,8 @@ transition: text-decoration-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     flex-basis: calc(100% / 3 -30px);
     margin-right: 30px;
     margin-top: 30px;
-    transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .thumb{
     position: relative;
@@ -754,7 +757,8 @@ transition: text-decoration-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     height: 100%;
 
     transform: translateY(100%);
-    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);;
     
     font-weight: 400;
     font-size: 18px;
